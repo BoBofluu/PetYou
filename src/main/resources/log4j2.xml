@@ -4,7 +4,7 @@
 
 	<Properties>
 		<Property name="project">啵啵_log_測試</Property>
-		<Property name="basedir">D:\\__不要占用好嗎\\_ourProject\\workspace\\BOBO_LOG</Property>
+		<Property name="basedir">C:\\__不要占用好嗎\\_ourProject\\workspace\\BOBO_LOG</Property>
 	</Properties>
 
 	<Appenders>
