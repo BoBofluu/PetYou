@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.title {
+	font-size: 1.75rem;
+	text-align: center;
+}
+
+.check-btn-exsist {
+	background-color: pink;
+	width: 91px;
+	padding: 3px;
+	border-radius: 10px;
+	border: solid #eca8af;
+}
+
+.check-btn-pic {
+	width: 30px;
+	margin-top: -8px;
+}
+
+.table {
+	table-layout: fixed; 
+}
+
+.table tr td:nth-child(3), .table tr td:nth-child(2) {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

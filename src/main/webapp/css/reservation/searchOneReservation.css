@@ -1,0 +1,174 @@
+
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+	transition: margin-left .5s;
+	padding: 20px;
+	margin: auto;
+	width: 800px;
+}
+
+.shopPic {
+	width: 400px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.shopInfo {
+	position: relative;
+	width: 840px;
+	height: 300px;
+	overflow: hidden;
+	margin-bottom: 25px;
+	padding: 15px;
+	background-color: #F9DEC9;
+	border-radius: 15px;
+}
+
+.icon {
+	width: 50px;
+	margin-top: -20px;
+}
+
+.icon2 {
+	width: 70px;
+	margin-top: -7px;
+}
+
+.reservationInfo hr {
+	margin-top: 0rem;
+}
+
+.contactInfo hr {
+	margin-top: 0rem;
+}
+
+.reservationInfo {
+	width: 840px;
+	background-color: #F9DEC9;
+	border-radius: 15px;
+	margin-bottom: 25px;
+	padding: 15px;
+}
+
+.contactInfo {
+	width: 840px;
+	background-color: #F9DEC9;
+	border-radius: 15px;
+	padding: 15px;
+	margin-bottom: 25px;
+}
+
+.updateDiv, .deleteDiv {
+	clear: both;
+	display: inline-block;
+	border: solid;
+	width: 90px;
+	margin-bottom: 20px;
+	margin-left: 200px;
+	border-radius: 10px;
+	background: #f7d5bb;
+}
+
+.updateDiv :hover, .deleteDiv :hover {
+	background: #e59572;
+}
+
+.updateDiv img, .deleteDiv img {
+	width: 100%;
+	border-radius: 9px;
+}
+
+.title {
+	font-size: 30px;
+}
+
+.number {
+background: linear-gradient(to right, #ffc3a0, #FFAFBD);
+    font-size: 28px;
+    width: 180px;
+    border-radius: 20px;
+    color: #990033;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px #8c8c8c;
+}
+
+/*====================================manageOneReservation===========================================*/
+.memberTable {
+	margin: auto;
+}
+
+.memberTable tr td {
+	border: solid;
+	border-collapse: collapse;
+}
+
+.memberTable tr td:nth-child(1) {
+	width: 150px;
+	border: 2px solid floralwhite;
+	padding-left: 20px;
+	color: #fff;
+	background-color: #f5587b;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.memberTable tr td:nth-child(2) {
+	width: 550px;
+	border: 2px solid floralwhite;
+	padding-left: 20px;
+	color: #3a3b3c;
+	font-size: 22px;
+	background-color: pink;
+}
+
+.returnDiv {
+	clear: both;
+	border: solid;
+	width: 90px;
+	margin: auto;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	background: #f7d5bb;
+}
+
+.returnDiv :hover {
+	background: #e59572;
+}
+
+.returnDiv img {
+	width: 100%;
+	border-radius: 9px;
+}
+
+.manage-info{
+	margin-bottom: 40px;
+}
+
+.manage-info hr{
+	    margin-bottom: 20px;
+    margin-top: 2px;
+}
+
+.contactManagerDiv{
+	clear: both;
+	border: solid;
+	width: 150px;
+	margin: auto;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	background: #f7d5bb;
+}
+
+.contactManagerDiv :hover {
+	background: #e59572;
+}
+
+.contactManagerDiv img {
+	width: 100%;
+	border-radius: 9px;
+}

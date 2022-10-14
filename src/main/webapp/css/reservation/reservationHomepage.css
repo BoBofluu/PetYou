@@ -1,0 +1,59 @@
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+.homeDiv {
+	margin: auto;
+	height: 500px;
+	border-radius: 15px;
+}
+
+.salonDiv {
+	width: 500px;
+	height: 500px;
+	border-radius: 15px;
+	background: linear-gradient(to top, #ffdde1, #ee9ca7);
+	margin: auto;
+	display: inline-block;
+	margin-left: 20%;
+	box-shadow: 4px 3px;
+	filter: brightness(80%);
+}
+
+.hospitalDiv {
+	width: 500px;
+	height: 500px;
+	border-radius: 15px;
+	background: linear-gradient(to bottom, #ED8F03, #FFB75E);
+	margin: auto;
+	display: inline-block;
+	box-shadow: 4px 3px;
+	filter: brightness(80%);
+}
+.hospitalDiv:hover{
+	box-shadow: 1px 1px;
+	filter: brightness(100%);
+/* 	background: linear-gradient(to bottom,#FFB75E , #FBD786); */
+}
+
+.salonDiv:hover{
+	box-shadow: 1px 1px;
+		filter: brightness(100%);
+	
+/* 	background: linear-gradient(to top, #ee9ca7, #E684AE); */
+}
+
+.salonPic {
+	width: 100%;
+	border-radius: 15px;
+}
+
+.hospitalPic {
+	width: 100%;
+	border-radius: 15px;
+}
+
+.backPic {
+	z-index: 0;
+}

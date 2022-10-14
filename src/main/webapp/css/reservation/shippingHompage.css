@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+.main {
+	width: 1000px;
+	float: right;
+	margin-right: 150px;
+}
+
+.check-btn-exsist {
+	background-color: #fcff8a;
+	width: 91px;
+	padding: 3px;
+	border-radius: 10px;
+	border: solid #eca8af;
+}
+
+.check-btn-exsist:hover {
+	background-color: #9c293d;
+	color: white;
+}
+
+.check-btn-pic {
+	width: 30px;
+	margin-top: -8px;
+}
+
+.table {
+	table-layout: fixed;
+}
+
+.table tr td:nth-child(4), .table tr td:nth-child(5) {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.title {
+	font-size: 2.0rem;
+	text-align: center;
+	margin-bottom: 20px;
+	color: saddlebrown;
+	font-weight: 900;
+}
+.table{
+	table-layout: fixed;
+	background-color: #ffe8e8;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px 2px;
+}

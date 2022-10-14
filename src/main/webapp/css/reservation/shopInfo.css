@@ -1,0 +1,214 @@
+.outContainer {
+	margin: auto;
+	width: 1518px;
+	/* 	border: solid; */
+	height: 955px;
+}
+
+/* 標頭 */
+#shopName {
+	color: #7E3B31;
+	font-size: 2em;
+}
+
+.shopName {
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+/* 基本資料table */
+.basicInfodiv {
+	margin-left: 57px;
+	width: 400px;
+	height: 380px;
+	border: 5px solid #ee9ca7;
+	border-radius: 15px;
+	float: left;
+	position: absolute;
+	z-index: 1;
+	padding: 1.5%;
+	padding-top: 1%;
+}
+
+.basicInfo {
+	width: 100%;
+}
+
+.basicInfo hr {
+	background-color: #F4ACB7;
+	width: 64%;
+	margin-left: 4%;
+	margin-top: 1%;
+}
+
+.basicInfo .name {
+	font-size: 25px;
+	font-weight: 600;
+	width: 105%;
+	color: #B85750;
+}
+
+.basicInfo .value {
+	font-size: 25px;
+	width: 100%;
+	color: #f26d5b;
+}
+
+.basicInfo .titleSpan {
+	font-size: 35px;
+	width: 100%;
+	padding-left: 5%;
+	color: #bd1550;
+}
+
+/* 環境圖片 */
+.picture {
+	width: 550px;
+	height: 550px;
+	margin: auto;
+	display: inline-block;
+	margin-left: 910px;
+	position: relative;
+	border-radius: 15px;
+	overflow: hidden;
+	box-shadow: 3px 2px 3px 2px #9D8189;
+}
+
+.picture img {
+	width: 550px;
+	height: 550px;
+	overflow: hidden;
+	border-radius: 15px;
+}
+
+/* 營業時間 */
+.timediv {
+	overflow: hidden;
+	width: 400px;
+	border: 5px solid #ee9ca7;
+	border-radius: 15px;
+	position: relative;
+	padding: 1.5%;
+	padding-top: 1%;
+	margin-top: -557px;
+	margin-bottom: 10px;
+	margin-left: 466px;
+}
+
+.titleTimeSpan {
+	font-size: 35px;
+	width: 100%;
+	padding-left: 3%;
+	color: #bd1550;
+}
+
+.time {
+	width: 500px;
+}
+
+.time hr {
+	background-color: #F4ACB7;
+	width: 25%;
+	margin-left: 2%;
+	margin-top: 0.5%;
+}
+
+.time .name {
+	font-size: 25px;
+	font-weight: 600;
+	color: #B85750;
+}
+
+.time .value {
+	font-size: 22px;
+	color: #f26d5b;
+	    margin-left: -49px;
+}
+
+/* 診療or美容項目 */
+.projectdiv {
+	overflow: hidden;
+	margin-left: 52px;
+	width: 816px;
+	border: 5px solid #ee9ca7;
+	border-radius: 15px;
+	position: relative;
+	padding: 1.5%;
+	padding-top: 1%;
+}
+
+.projectdiv hr {
+	background-color: #F4ACB7;
+	width: 92%;
+	margin-left: 4%;
+	margin-top: 1%;
+}
+
+.projectdiv .titleSpan {
+	font-size: 35px;
+	width: 100%;
+	padding-left: 5%;
+	padding-top: 2%;
+	color: #bd1550;
+}
+
+.project .name {
+	font-size: 28px;
+	font-weight: 600;
+	color: #B85750;
+}
+
+.project .value {
+	font-size: 22px;
+	color: #f26d5b;
+}
+
+.project .salon .hospital {
+	font-size: 25px;
+}
+
+/* 我要預約鍵 */
+.reservatediv {
+	width: 250px;
+	border: 3px solid #ee9ca7;
+	float: left;
+	background-color: #ED5485;
+	border-radius: 15px;
+	position: relative;
+	float: right;
+	right: 188px;
+	top: -138px;
+	box-shadow: 2px 2px 3px 2px #5e412f;
+}
+
+.reservatediv :hover{
+    background-color: #B85750;
+    border-radius: 15px;
+}
+
+.reservate {
+	width: 244px;
+}
+
+/* 返回鍵 */
+.backdiv {
+	width: 150px;
+	height: 62px;
+	float: right;
+	margin-top: -115px;
+	border: 5px solid #ee9ca7;
+	border-radius: 15px;
+	background-color: #ED5485;
+	padding-top: 0.35%;
+	position: relative;
+	left: 221px;
+	margin-top: -64px;
+}
+
+.back {
+	width: 132px;
+	margin: auto;
+	margin-top: 3%;
+}

@@ -1,0 +1,86 @@
+body, html {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: pink;
+	padding: 10px;
+	background: url(../../image/turntable/背景1.jpg) left top no-repeat;
+}
+
+.title {
+	width: 632px;
+	margin: auto;
+	margin-bottom: 15px;
+	margin-left: 30%;
+	color: #fae3d9;
+	background-color: #c50d66;
+	box-shadow: 2px 2px 2px 2px #5e412f;
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: 7px;
+}
+
+.successful {
+	font-size: 40px;
+	margin-left: 188px;
+}
+
+.description {
+	font-size: 27px;
+	margin-left: 7px;
+}
+
+.doggy {
+	vertical-align: middle;
+	border-style: none;
+	display: inline-block;
+	width: 206px;
+	margin-top: -93px;
+}
+
+h2 {
+	display: inline-block;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 435px;
+	margin: 0px auto;
+	position: relative;
+}
+
+.part2 {
+	background: url(../../image/turntable/轉盤.png) left top no-repeat;
+	padding-top: 100%;
+	background-size: 100% 100%;
+	position: relative;
+	border: soild;
+}
+
+.rotate-pointer {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 15%;
+	height: 14%;
+	margin-left: -7.5%;
+	margin-top: -7%;
+	margin-top: -6%;
+	background: url(../../image/turntable/透明狗.png) center center no-repeat;
+	background-size: 100% 100%;
+	height: 14%;
+	margin-left: -7.5%;
+	margin-top: -7%;
+}
+
+/* 調整旋轉速度和起始速率 */
+.part2 {
+	transition: transform 3s;
+	/*設定轉場時所依據的貝茲曲線
+            緩慢的開始和結束。相當於cubic-bezier(0.42,0,0.58,1)。
+            參考網址: https://wcc723.github.io/sass/2013/10/02/transition/
+            */
+	transition-timing-function: ease-in-out;
+}

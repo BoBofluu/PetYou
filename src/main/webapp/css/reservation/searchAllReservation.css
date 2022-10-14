@@ -1,0 +1,134 @@
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+	transition: margin-left .5s;
+	padding: 20px;
+	width: 950px;
+	/* 	border: solid green; */
+	/* 	float: right; */
+	margin: auto;
+}
+
+.noResult {
+	background-color: white;
+	width: 425px;
+	margin: auto;
+	font-size: 40px;
+	padding: 40px;
+	border: solid;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px 2px lightpink;
+}
+
+.outContainer {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	border-radius: 5px;
+	background-color: white;
+	box-shadow: 12px 12px 7px #dfe3e8;
+	padding: 15px;
+	padding-left: 40px;
+}
+
+.title {
+	width: 100px;
+	/* 	border: solid; */
+	margin: auto;
+	width: 270px;
+}
+
+.title img {
+	width: 100%;
+}
+
+.details {
+	border: 2px solid;
+	width: 100px;
+	position: relative;
+	display: inline-block;
+	margin-left: 752px;
+	border-radius: 20px;
+	padding: 5px;
+	padding-left: 8px;
+	margin-top: 14px;
+}
+
+.shopInfo {
+	/* 	border: solid; */
+	width: 290px;
+	display: inline-block;
+	background: #fae3d9;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.reservationInfo {
+	/* 	border: solid; */
+	width: 280px;
+	display: inline-block;
+	background: #fae3d9;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.contactInfo {
+	/* 	border: solid; */
+	width: 240px;
+	display: inline-block;
+	background: #fae3d9;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.reservationId {
+	font-size: 30px;
+	margin-top: 15px;
+	width: 170px;
+	border: solid;
+	margin-bottom: -16px;
+	background: #ff9966;
+	background: -webkit-linear-gradient(to left, #ff5e62, #ff9966);
+	background: linear-gradient(to left, #ff5e62, #ff9966);
+	color: white;
+	border-radius: 10px;
+}
+
+.linkToOne {
+	color: #520d0dad;
+}
+
+.linkToOne:hover {
+	color: #7f2020;
+}
+
+.linkToOne:link {
+	text-decoration: none;
+}
+
+.totalCount span {
+	font-size: 22px;
+	font-family: Comic Sans MS;
+}
+
+.totalCount img {
+	width: 125px;
+}
+
+.bonus-btn {
+	border: 1px solid brown;
+	background-color: #ff91a4;
+	color: white;
+	padding: 4px;
+	box-shadow: 4px 3px brown;
+	border-radius: 5px;
+	margin-left: 20px;
+	width: 100px;
+	font-weight: bolder;
+}
+
+.bonus-btn:hover {
+	box-shadow: 1px 1px brown;
+}
+.bonus-btn:focus {
+	outline: none;
+}

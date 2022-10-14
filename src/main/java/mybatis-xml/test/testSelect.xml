@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="testSelect">
+
+	<select id="SELECT_bo1" parameterType="map"
+		resultType="com.common.BoboMap">
+		select a.*
+		from bo1 a With (NOLOCK)
+		<where>
+			rowid=#{rowid}
+		</where>
+		order by rowid
+	</select>
+	<insert id="INSERT_bo1" parameterType="java.util.HashMap">
+		insert into bo1
+		values
+		(#{rowid}, #{name}, #{phone})
+	</insert>
+	<update id="UPDATE_bo1" parameterType="java.util.HashMap">
+		update bo1
+		set
+		[phone]=#{phone}
+		where name = 'gordon'
+	</update>
+</mapper>	

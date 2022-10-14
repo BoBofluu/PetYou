@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+.main{
+    width: 866px;
+    margin: auto;
+    float: right;
+    margin-right: 250px;	
+}
+.memberTable tr td:nth-child(2) {
+	padding:10px;
+}
+.memberTable tr td:nth-child(2) input, select, textarea {
+	width: 95%;
+}
+#ship-submit{
+	border: solid pink;
+    background: darkgrey;
+    color: wheat;
+    font-weight: 700;
+    padding: 3px;
+    border-radius:15px;
+}
+
+.btn-div{
+	width: 136px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.title-ship{
+	 width: 227px;
+    font-size: 29px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: brown;
+    font-weight: bolder;
+}
+.checkbox-choice{
+	display: inline-block;
+	height:17px;
+    
+}

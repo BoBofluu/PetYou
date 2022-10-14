@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Configuration xmlns:log4j='http://jakarta.apache.org/log4j/2.x/'>
+
+	<Properties>
+		<Property name="project">啵啵_log_測試</Property>
+		<Property name="basedir">D:\\__不要占用好嗎\\_ourProject\\workspace\\BOBO_LOG</Property>
+	</Properties>
+
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT" bufferedIO="true"
+			immediateFlush="false" BufferSize="1024">
+			<PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss} ${sys:project} %p %C{1} %X{hostname} %X{useraddress} %X{username} %m %n"/>
+		</Console>
+
+		<RollingFile name="FileLog"
+			fileName="${sys:basedir}/TestRefresh.log"
+			filePattern="${sys:basedir}/${sys:project}Log-%d{yyyy-MM-dd}-%i.log"
+			bufferedIO="true" immediateFlush="false" BufferSize="1024">
+			<PatternLayout charset="UTF-8" pattern="[%d{yyy-MM-dd HH:mm:ss}] ${sys:project} %X{ishuman} %p %C{1} ${hostName} %X{useraddress} %X{userid} %X{username} %m %n"/>
+			<Policies>
+				<SizeBasedTriggeringPolicy size="20 MB" />
+			</Policies>
+			<DefaultRolloverStrategy max="20" />
+		</RollingFile>
+	</Appenders>
+
+	<Loggers>
+		<AsyncRoot level="info" includeLocation="true">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="FileLog" />
+		</AsyncRoot>
+	</Loggers>
+</Configuration>

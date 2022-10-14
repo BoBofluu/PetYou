@@ -1,0 +1,235 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.articleScreen {
+	position: relative;
+}
+
+#outdiv {
+	margin: auto;
+	background-color: #BF8383;
+	margin-top: 2%;
+	padding: 2%;
+	border-radius: 15px;
+	position: absolute;
+	right: 0;
+	margin-bottom: 3%;
+}
+
+.prviewBlock {
+	width: 307px;
+	position: absolute;
+	margin: 1%;
+	margin-top: 12%;
+	margin-left: 4%;
+	left: 0;
+}
+
+.prviewdiv {
+	border: 3.5px solid #F6BBC4;
+	margin: 1%;
+	margin-top: 17%;
+	margin-left: 4%;
+	overflow: auto;
+	position: absolute;
+	left: 0;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+#legendArticle {
+	margin-bottom: 2%;
+	font-size: x-large;
+	font-weight: 900;
+	margin-left: 2%;
+	color:#fff;
+}
+
+#selectBoard {
+	width: 14%;
+	font-size: large;
+	border-radius: 5px;
+	border: solid #FFF;
+	cursor: pointer;
+}
+
+#selectTag {
+	width: 11%;
+	font-size: large;
+	border-radius: 5px;
+	border: solid #FFF;
+	cursor: pointer;
+}
+
+/* update的css*/
+#updateBoard {
+	width: 14%;
+	font-size: large;
+	border-radius: 5px;
+	text-align: center;
+	color: #8d5433;
+	font-weight: 900;
+}
+
+#updateTag {
+	width: 11%;
+	font-size: large;
+	border-radius: 5px;
+	text-align: center;
+	color: #8d5433;
+	font-weight: 900;
+}
+
+#updateArticle {
+	margin-top: 2%;
+	width: 96%;
+	height: 6%;
+	padding: 1%;
+	font-size: large;
+	border-radius: 5px;
+	border: none;
+	color: #8d5433;
+	font-weight: 900;
+}
+
+#submitUpdate {
+	border-radius: 6px;
+	border: 1px solid #dcdcdc;
+	color: #666666;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 6px 24px;
+	margin-left: 627px;
+	margin-top: 4px;
+}
+
+#submitUpdate:hover {
+	cursor: pointer;
+	background: #F6BBC4;
+}
+/* update的css結束*/
+.optionOne {
+	display: none;
+}
+
+#inputArticle {
+	margin-top: 2%;
+	width: 96%;
+	height: 6%;
+	padding: 1%;
+	font-size: large;
+	background-color: #F0F0F0;
+	border-radius: 5px;
+	border: none;
+}
+
+#textareaContext {
+	height: 70%;
+	margin-top: 2%;
+	width: 96%;
+	padding: 1%;
+	font-size: large;
+	background-color: #F0F0F0;
+	border-radius: 5px;
+	resize: none;
+	overflow: auto;
+}
+
+#submitArticle {
+	border-radius: 6px;
+	border: 1px solid #dcdcdc;
+	color: #666666;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 6px 24px;
+	margin-right: 4%;
+	margin-top: 30px;
+	float:right;
+}
+
+.submitArticle:hover {
+	cursor: pointer;
+	background: #F6BBC4;
+}
+
+input:focus, div:focus {
+	outline: none;
+}
+
+/* textareaContext捲軸開始 */
+#textareaContext::-webkit-scrollbar {
+	height: 12px;
+	overflow: visible;
+	width: 12px;
+	border-radius: 10px;
+}
+
+#textareaContext::-webkit-scrollbar-thumb {
+	background-color: #F6BBC4;
+	background-clip: padding-box;
+	border: solid transparent;
+	border-width: 0 0 0 0px;
+	min-height: 28px;
+	padding: 100px 0 0;
+	border-radius: 10px;
+}
+
+#textareaContext::-webkit-scrollbar-thumb:hover {
+	background-color: #F6BBC4;
+	border-radius: 10px;
+}
+
+#textareaContext::-webkit-scrollbar-thumb:active {
+	background-color: #F6BBC4;
+	border-radius: 10px;
+}
+
+/* textareaContext捲軸結束 */
+
+/* imgstore捲軸開始 */
+#imgstore::-webkit-scrollbar {
+	height: 5px;
+	overflow: visible;
+	width: 5px;
+	border-radius: 10px;
+}
+
+#imgstore::-webkit-scrollbar-thumb {
+	background-color: #BF8383;
+	background-clip: padding-box;
+	border: solid transparent;
+	border-width: 0 0 0 0px;
+	min-height: 28px;
+	padding: 100px 0 0;
+	border-radius: 10px;
+}
+
+#imgstore::-webkit-scrollbar-thumb:hover {
+	background-color: #BF8383;
+	border-radius: 10px;
+}
+
+#imgstore::-webkit-scrollbar-thumb:active {
+	background-color: #BF8383;
+	border-radius: 10px;
+}
+
+/* imgstore捲軸結束 */
+.prview-img {
+	max-width: 260px;
+	max-height: 220px;
+	margin: 20px;
+	cursor: pointer;
+}
+
+.real-img {
+	max-width: 640px;
+	max-height: 480px;
+	margin: 10px;
+	cursor: pointer;
+	display: block;
+}

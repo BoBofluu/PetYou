@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.check-btn-exsist {
+	background-color: pink;
+	width: 91px;
+	padding: 3px;
+	border-radius: 10px;
+	border: solid #eca8af;
+}
+
+.check-btn-pic {
+	width: 30px;
+	margin-top: -8px;
+}
+
+.title {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.left-picture {
+	position: absolute;
+	margin: inherit;
+	top: 154px;
+	left: 400px;
+	width: 73px;
+}
+
+.right-picture {
+	position: absolute;
+	margin: inherit;
+	top: 154px;
+	right: 521px;
+	transform: rotateY(180deg);
+		width: 73px;
+}

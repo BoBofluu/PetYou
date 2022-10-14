@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.border2 {
+	/* 	position: fixed; */
+	display: inline-block;
+	/* 	text-align: center; */
+}
+
+.container4 {
+	left: 10px;
+	margin-left: 25px;
+	margin-top: 10px;
+	width: 925px;
+	vertical-align: top;
+	height: 405px;
+	line-height: 1.9;
+	padding: 10px;
+	margin-right: 10px;
+	background: white;
+	border-radius: 15px;
+	margin: auto;
+	box-shadow: 3px 2px 2px 2px #a4a4a4;
+}
+
+.container2 {
+    /* border: 3px solid red; */
+    left: 10px;
+    margin-left: 40px;
+    margin-top: -20px;
+    width: 915px;
+    vertical-align: top;
+    line-height: 1.7;
+    padding: 10px;
+    /* height: 405px; */
+    line-height: 2.0;
+    background: white;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+/* .container3{ */
+/* 	margin-left: 10px; */
+/* } */
+.fi {
+	vertical-align: top;
+	margin-top: 70px;
+}
+
+.t1 {
+	vertical-align: top;
+}
+
+.in {
+	
+}
+/* Map */
+.out {
+	display: inline-block;
+}
+
+.dddd {
+	display: inline-block;
+	margin-top: 170px;
+	width: 10px;
+	margin-left: 35px;
+	position: relative;
+	/* margin-bottom: 104px; */
+	margin-top: 200px;
+}
+/* 滾軸設定 */
+.go-top.show {
+	bottom: 20px;
+}
+
+.go-top, .go-list {
+	display: block;
+	width: 40px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 30px;
+	position: fixed;
+	bottom: -50px;
+	right: 30px;
+	transition: all 1s ease;
+	background-color: #404040;
+	color: #FFFFFF;
+	text-decoration: none;
+	border-radius: 5px;
+}
+
+.go-top.show {
+	bottom: 50px;
+}
+
+/* 分頁設定 */
+.mt-20 {
+	margin-top: 20px;
+}
+
+.mb-20 {
+	margin-bottom: 20px;
+}
+
+.pagenum {
+	display: inline-block;
+}
+
+.pagebar {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.pagenum2 {
+	margin: 0 5px 5px 5px;
+	display: block;
+	width: 48px;
+	height: 48px;
+	line-height: 48px;
+	font-family: "Poppins", sans-serif;
+	font-size: 20px;
+	line-height: 48px;
+	text-align: center;
+	background-color: #fff;
+	border-radius: 50%;
+	font-family: "Microsoft JhengHei", Arial, Tahoma, sans-serif;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+}
+
+.iframe-div {
+    position: absolute;
+    right: 40px;
+    box-shadow: 1px 1px 2px 2px grey;
+    border: 4px solid saddlebrown;
+    border-radius: 5px;
+}
+
+.shop-info-div {
+	position: relative;
+	margin-left: 175px;
+	top: 66px;
+}
+
+.shop-time-div {
+	position: relative;
+	top: 66px;
+	left: 15px;
+}
+
+.shop-pic-div {
+	position: absolute;
+	border: solid;
+	margin-top: -25px;
+	border: 5px double saddlebrown;
+	border-radius: 5px;
+}
+
+.shopName {
+	color: brown;
+	font-size: 32px;
+	font-weight: bolder;
+	width: 925px;
+	position: absolute;
+	text-align: center;
+}
+
+.openmap-btn {
+	border: none;
+	padding: 4px;
+	border-radius: 10px;
+	background-color: #FBD3E9;
+	color: rgb(182, 0, 0);
+	box-shadow: 2px 2px 0px 1px rosybrown;
+}
+
+.openmap-btn:hover {
+	background-color: brown;
+	color: white;
+	box-shadow: none;
+}
+.openmap-btn:focus{
+	outline:none;
+}
+
+.details-div {
+	border: 4px double saddlebrown;
+	margin-bottom: 10px;
+	padding: 5px;
+	border-radius: 10px;
+	background: #ffedf0;
+}
+
+.value-div{
+	display: inline-block;
+	    width: 700px;
+	    font-size: 18px;
+	    color: brown;
+	        color: saddlebrown;
+}
+
+.title-div{
+    display: inline-block;
+    width: 150px;
+    color: brown;
+    text-align: end;
+    font-weight: bolder;
+    vertical-align: top;
+}
+
+.long{
+	display:block;
+}
+
+.longValue{
+    width: 800px;
+    margin: auto;
+    /* border: solid; */
+    display: block;
+}

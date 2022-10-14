@@ -1,0 +1,116 @@
+.outContainer {
+	
+}
+
+.shopContainer {
+	width: 80%;
+	display: inline-block;
+	float: right;
+	/*     border: 5px dotted green; */
+}
+
+.salonIcon {
+	width: 550px;
+	overflow: hidden;
+	height: 305px;
+	border-radius: 15px;
+	box-shadow: 3px 3px 3px 3px #9D8189;
+	/* margin-left: 136px; */
+	/* margin-top: -28px; */
+}
+
+.environmentDiv {
+	height: 305px;
+	margin: auto;
+	width: 550px;
+	display: inline-block;
+	margin-left: 2%;
+	margin-top: 2%;
+	/* 	margin-bottom: 4%; */
+	/* border: solid; */
+}
+
+.shopsInfoDiv {
+	margin-top: 2%;
+	overflow: hidden;
+	width: 50%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	margin-left: 1%;
+	float: left;
+	display: inline-block;
+	/* border: solid;*/
+}
+
+.magnifier {
+	width: 25px;
+}
+
+.infoLink h3 {
+	color: #7E3B31;
+	background: #FFCAD4;
+	border-radius: 15px;
+	padding-left: 5px;
+}
+
+.infoLink span {
+	color: #7E3B31;
+	border-radius: 15px;
+	padding-left: 5px;
+}
+
+.topIcon {
+	width: 10px;
+	border: solid;
+}
+
+.topPic {
+	width: 100%;
+}
+
+hr .line {
+	border-top: 1px solid #9D8189;
+}
+
+/* ============================================ 搜尋欄位的css ====================================*/
+.search {
+	width: 18%;
+	float: left;
+	height: 100%;
+	margin: 0px;
+	margin-left: 15px;
+	margin-top: 1%;
+	border: solid lightgray;
+	background: linear-gradient(to bottom,#ee9ca7 , #ffdde1);
+	padding: 10px;
+	border-radius: 10px;
+	
+}
+
+.search a {
+	line-height: 0.5px;
+}
+
+input[type=radio] {
+	transform: scale(1.4);
+	margin-left: 7px;
+}
+
+.checkboxObject {
+	padding: 10px;
+	background-color: #FFEBE7;
+	border-radius: 15px;
+	box-shadow: 1px 1px 1px 1px grey;
+	margin-bottom: 20px;
+}
+
+.place {
+	width: 100%;
+	border: 2px solid lightgray;
+	border-radius: 10px;
+}
+
+.place:focus {
+	border: 2px solid lightgray;
+	border-radius: 10px;
+}

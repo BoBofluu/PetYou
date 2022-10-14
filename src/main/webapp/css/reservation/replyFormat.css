@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+#main {
+	/* 		border:solid; */
+	width: 700px;
+	margin: auto;
+	height: 450px;
+	margin-bottom: 20px;
+	background-color: #ff99a8;
+	border-radius: 10px;
+	box-sizing: content-box;
+	box-shadow: 1px 1px 1px 1px slategrey;
+}
+
+.context {
+	margin-top: 10px;
+	width: 100%;
+	border: 1px solid brown;
+	background-color: #ffffff94;
+	border-radius: 10px;
+}
+
+.context-title {
+	margin-top: 10px;
+	width: 100%;
+	border: 1px solid brown;
+	background-color: #ffffff94;
+	border-radius: 10px;
+}
+
+.contact-title {
+	font-size: 25px;
+	font-weight: bolder;
+	color: #ffff;
+	margin: auto;
+}
+
+.contact-subtitle {
+	margin-top: 10px;
+	color: #fff;
+	font-weight: 600;
+}
+
+.shopId-span {
+	margin-left: 247px;
+	color: #fff;
+	font-size: 26px;
+}
+
+#main {
+	padding: 10px;
+	display: inline-block;
+	width: 465px;
+	position: absolute;
+}
+
+#reply-main {
+	width: 586px;
+	height: 450px;
+	margin-bottom: 20px;
+	background-color: #ff99a8;
+	border-radius: 10px;
+	box-sizing: content-box;
+	box-shadow: 1px 1px 1px 1px slategrey;
+	padding: 10px;
+	float: right;
+}
+
+.main-container {
+	width: 1106px;
+	float: right;
+	margin-right: 50px;
+}
+
+.reply-context:focus	{
+	background-color: #fff;
+}
+
+.returnDiv {
+	clear: both;
+	border: solid;
+	width: 90px;
+	margin-left: 1000px;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	background: #f7d5bb;
+}
+
+.returnDiv :hover {
+	background: #e59572;
+}
+
+.returnDiv img {
+	width: 100%;
+	border-radius: 9px;
+}

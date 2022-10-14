@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+#main {
+	/* 		border:solid; */
+	width: 700px;
+	margin: auto;
+	height: 450px;
+	margin-bottom: 20px;
+	background-color: #ff99a8;
+	border-radius: 10px;
+	box-sizing: content-box;
+	box-shadow: 1px 1px 1px 1px slategrey;
+}
+
+.context {
+	margin-top: 10px;
+	width: 100%;
+	border: 1px solid brown;
+	background-color: #ffffff94;
+	border-radius: 10px;
+}
+
+.context:focus {
+	border-radius: 5px;
+	background: #fff;
+}
+
+#context-title {
+	margin-top: 10px;
+	width: 100%;
+	border: 1px solid brown;
+	background-color: #ffffff94;
+	border-radius: 10px;
+}
+
+#context-title:focus{
+	border-radius: 5px;
+	background: #fff;
+	
+}
+
+.contact-title {
+	font-size: 25px;
+	font-weight: bolder;
+	color: #ffff;
+	margin: auto;
+}
+.contact-subtitle {
+	margin-top: 10px;
+	color: #fff;
+	font-weight: 600;
+}
+
+.shopId-span {
+	margin-left: 247px;
+	color: #fff;
+	font-size: 26px;
+}

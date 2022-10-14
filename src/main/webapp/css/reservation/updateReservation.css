@@ -1,0 +1,136 @@
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+	transition: margin-left .5s;
+	padding: 20px;
+	margin: auto;
+	width: 1050px;
+}
+
+.title {
+	width: 500px;
+	/*     border: solid; */
+	margin: auto;
+	margin-bottom: 12px;
+}
+
+.img1 {
+	width: 75px;
+	position: relative;
+	margin-left: 46px;
+	margin-right: -21px;
+}
+
+.img2 {
+	width: 250px;
+	position: absolute;
+}
+
+.img3 {
+	width: 75px;
+	position: relative;
+	margin-left: 236px;
+	margin-right: -21px;
+}
+
+.subtitle {
+	font-size: 40px;
+}
+
+label {
+	width: 400px;
+	text-align: right;
+	display: inline-block;
+	margin-bottom: .5rem;
+	font-size: 25px;
+}
+
+.short {
+	width: 400px;
+	font-size: 23px;
+}
+
+select {
+	width: 400px;
+	font-size: 23px;
+}
+
+.shopPic {
+	width: 400px;
+	position: absolute;
+	margin-left: 550px;
+	display: inline-block;
+	margin-top: -220px;
+	margin: auto;
+	padding: 20px;
+}
+
+.shopInfo {
+	border: solid;
+	padding: 10px;
+	margin: auto;
+	padding-left: 70px;
+	margin-bottom: 20px;
+	background: linear-gradient(to left, #ffc3a0, #FFAFBD);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border-radius: 15px;
+}
+
+.contactInfo {
+	border: solid;
+	padding: 10px;
+	margin: auto;
+	padding-left: 70px;
+	margin-bottom: 20px;
+	background: linear-gradient(to left, #ffc3a0, #FFAFBD);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border-radius: 15px;
+}
+
+.reservationInfo {
+	border: solid;
+	padding: 10px;
+	margin: auto;
+	padding-left: 70px;
+	margin-bottom: 20px;
+	background: linear-gradient(to left, #ffc3a0, #FFAFBD);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border-radius: 15px;
+}
+
+.petInfo {
+	border: solid;
+	padding: 10px;
+	margin: auto;
+	padding-left: 70px;
+	margin-bottom: 20px;
+	background: linear-gradient(to left, #ffc3a0, #FFAFBD);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	border-radius: 15px;
+}
+
+.radioClass {
+	width: 100px;
+}
+
+.confirmDiv {
+	width: 100px;
+	margin: auto;
+	border-radius: 11px;
+	margin-bottom: 40px;
+	border: solid;
+}
+
+.confirmDiv :hover {
+	background: #e59572;
+}
+
+.confirmimg {
+	width: 100%;
+	border-radius: 10px;
+	background: #f6c2c2;
+}
+
+.titlePic {
+	width: 250px;
+	margin-top: 20px;
+}

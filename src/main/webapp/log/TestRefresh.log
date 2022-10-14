@@ -1,0 +1,214 @@
+[2021-04-06 18:18:21] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Initializing Servlet 'dispatcher' 
+[2021-04-06 18:18:24] 啵啵_log_測試  INFO Version TWDANN2012140A    HV000001: Hibernate Validator 5.2.4.Final 
+[2021-04-06 18:18:25] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Completed initialization in 4115 ms 
+[2021-04-06 18:18:32] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/06 18:18:31 127.0.0.1 **/ select * from bo1 
+[2021-04-06 18:18:33] 啵啵_log_測試  INFO testdao TWDANN2012140A    selectByString:[{rowid=1, name=bo, phone=0955}, {rowid=2, name=lee, phone=0975}, {rowid=3, name=vian, phone=0999}] 
+[2021-04-06 18:18:33] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---UPDATE SQL--- 
+[2021-04-06 18:18:33] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/06 18:18:33 127.0.0.1 **/ update bo1 set phone = '0955' where rowid = '1' 
+[2021-04-06 18:18:33] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---傳送一個Map給Mybatis然後從xml寫select語法--- 
+[2021-04-06 18:18:33] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.selectByXml 啵啵 110/04/06 18:18:33 127.0.0.1 **/ select a.*
+		from bo1 a With (NOLOCK)
+		 WHERE rowid=1 
+		order by rowid 
+[2021-04-06 18:18:33] 啵啵_log_測試  INFO testdao TWDANN2012140A    selectByXml:[{rowid=1, name=bo, phone=0955}] 
+[2021-04-07 11:25:12] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Initializing Servlet 'dispatcher' 
+[2021-04-07 11:25:15] 啵啵_log_測試  INFO Version TWDANN2012140A    HV000001: Hibernate Validator 5.2.4.Final 
+[2021-04-07 11:25:16] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Completed initialization in 3686 ms 
+[2021-04-07 11:25:30] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---INSERT SQL--- 
+[2021-04-07 11:25:31] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/07 11:25:30 127.0.0.1 **/ insert into bo1 values('4','vivian','09456') 
+[2021-04-07 11:25:32] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---SELECT SQL--- 
+[2021-04-07 11:25:32] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/07 11:25:32 127.0.0.1 **/ select * from bo1 
+[2021-04-07 11:25:32] 啵啵_log_測試  INFO testdao TWDANN2012140A    selectSQL:[{rowid=1, name=bo, phone=0955}, {rowid=2, name=lee, phone=0975}, {rowid=3, name=vian, phone=0999}, {rowid=4, name=vivian, phone=09456}] 
+[2021-04-07 11:25:32] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---UPDATE SQL--- 
+[2021-04-07 11:25:32] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/07 11:25:32 127.0.0.1 **/ update bo1 set phone = '0955' where rowid = '1' 
+[2021-04-07 11:25:32] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---SELECT SQL One--- 
+[2021-04-07 11:25:32] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/07 11:25:32 127.0.0.1 **/ select * from bo1 where rowid = '1' 
+[2021-04-07 11:25:32] 啵啵_log_測試  INFO testdao TWDANN2012140A    selectSQLOne:1 
+[2021-04-07 11:25:32] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---DELETE SQL--- 
+[2021-04-07 11:25:32] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/07 11:25:32 127.0.0.1 **/ delete bo1 where rowid = '4' 
+[2021-04-07 11:25:32] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---SELECT SQL BY XML--- 
+[2021-04-07 11:25:32] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.selectSQLByXml 啵啵 110/04/07 11:25:32 127.0.0.1 **/ select a.*
+		from bo1 a With (NOLOCK)
+		 WHERE rowid=1 
+		order by rowid 
+[2021-04-07 11:25:32] 啵啵_log_測試  INFO testdao TWDANN2012140A    selectSQLByXml:[{rowid=1, name=bo, phone=0955}] 
+[2021-04-07 11:28:16] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Initializing Servlet 'dispatcher' 
+[2021-04-07 11:28:20] 啵啵_log_測試  INFO Version TWDANN2012140A    HV000001: Hibernate Validator 5.2.4.Final 
+[2021-04-07 11:28:20] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Completed initialization in 4376 ms 
+[2021-04-07 11:28:22] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---INSERT SQL--- 
+[2021-04-07 11:28:23] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/07 11:28:22 127.0.0.1 **/ insert into bo1 values('4','vivian','09456') 
+[2021-04-07 11:28:23] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---SELECT SQL--- 
+[2021-04-07 11:28:23] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/07 11:28:23 127.0.0.1 **/ select * from bo1 
+[2021-04-07 11:28:23] 啵啵_log_測試  INFO testdao TWDANN2012140A    selectSQL:[{rowid=1, name=bo, phone=0955}, {rowid=2, name=lee, phone=0975}, {rowid=3, name=vian, phone=0999}, {rowid=4, name=vivian, phone=09456}] 
+[2021-04-07 11:28:23] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---UPDATE SQL--- 
+[2021-04-07 11:28:23] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/07 11:28:23 127.0.0.1 **/ update bo1 set phone = '0955' where rowid = '1' 
+[2021-04-07 11:28:23] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---SELECT SQL One--- 
+[2021-04-07 11:28:23] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/07 11:28:23 127.0.0.1 **/ select phone from bo1 where rowid = '1' 
+[2021-04-07 11:28:23] 啵啵_log_測試  INFO testdao TWDANN2012140A    selectSQLOne:0955 
+[2021-04-07 11:28:23] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---DELETE SQL--- 
+[2021-04-07 11:28:23] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/07 11:28:23 127.0.0.1 **/ delete bo1 where rowid = '4' 
+[2021-04-07 11:28:23] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---SELECT SQL One--- 
+[2021-04-07 11:28:23] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/07 11:28:23 127.0.0.1 **/ select phone from bo1 where rowid = '4' 
+[2021-04-07 11:28:23] 啵啵_log_測試  INFO testdao TWDANN2012140A    selectSQLAfterDelete:[] 
+[2021-04-07 11:28:23] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---SELECT SQL BY XML--- 
+[2021-04-07 11:28:23] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.selectSQLByXml 啵啵 110/04/07 11:28:23 127.0.0.1 **/ select a.*
+		from bo1 a With (NOLOCK)
+		 WHERE rowid=1 
+		order by rowid 
+[2021-04-07 11:28:23] 啵啵_log_測試  INFO testdao TWDANN2012140A    selectSQLByXml:[{rowid=1, name=bo, phone=0955}] 
+[2021-04-07 11:37:13] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Initializing Servlet 'dispatcher' 
+[2021-04-07 11:37:16] 啵啵_log_測試  INFO Version TWDANN2012140A    HV000001: Hibernate Validator 5.2.4.Final 
+[2021-04-07 11:37:17] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Completed initialization in 3647 ms 
+[2021-04-07 11:37:21] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---INSERT SQL BY XML--- 
+[2021-04-07 11:37:21] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.insertSQLByXml 啵啵 110/04/07 11:37:21 127.0.0.1 **/ insert into bo1
+		values
+		(gordon, 09123, ?) 
+[2021-04-07 11:37:22] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---SELECT SQL--- 
+[2021-04-07 11:37:22] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/07 11:37:22 127.0.0.1 **/ select * from bo1 
+[2021-04-07 11:37:22] 啵啵_log_測試  INFO testdao TWDANN2012140A    selectSQL:[{rowid=1, name=bo, phone=0955}, {rowid=2, name=lee, phone=0975}, {rowid=3, name=vian, phone=0999}, {rowid=, name=gordon, phone=09123}] 
+[2021-04-07 11:40:50] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Initializing Servlet 'dispatcher' 
+[2021-04-07 11:40:53] 啵啵_log_測試  INFO Version TWDANN2012140A    HV000001: Hibernate Validator 5.2.4.Final 
+[2021-04-07 11:40:54] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Completed initialization in 3873 ms 
+[2021-04-07 11:43:56] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Initializing Servlet 'dispatcher' 
+[2021-04-07 11:43:59] 啵啵_log_測試  INFO Version TWDANN2012140A    HV000001: Hibernate Validator 5.2.4.Final 
+[2021-04-07 11:44:00] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Completed initialization in 3586 ms 
+[2021-04-07 11:44:27] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Initializing Servlet 'dispatcher' 
+[2021-04-07 11:44:30] 啵啵_log_測試  INFO Version TWDANN2012140A    HV000001: Hibernate Validator 5.2.4.Final 
+[2021-04-07 11:44:31] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Completed initialization in 3999 ms 
+[2021-04-07 11:44:37] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---INSERT SQL BY XML--- 
+[2021-04-07 11:44:38] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---SELECT SQL--- 
+[2021-04-07 11:44:38] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/07 11:44:38 127.0.0.1 **/ select * from bo1 
+[2021-04-07 11:44:39] 啵啵_log_測試  INFO testdao TWDANN2012140A    selectSQL:[{rowid=1, name=bo, phone=0955}, {rowid=2, name=lee, phone=0975}, {rowid=3, name=vian, phone=0999}, {rowid=, name=gordon, phone=09123}] 
+[2021-04-07 11:44:39] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---UPDATE SQL BY XML--- 
+[2021-04-07 11:46:50] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Initializing Servlet 'dispatcher' 
+[2021-04-07 11:46:53] 啵啵_log_測試  INFO Version TWDANN2012140A    HV000001: Hibernate Validator 5.2.4.Final 
+[2021-04-07 11:46:53] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Completed initialization in 3617 ms 
+[2021-04-07 11:47:06] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---INSERT SQL BY XML--- 
+[2021-04-07 11:47:08] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---SELECT SQL--- 
+[2021-04-07 11:47:08] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/07 11:47:08 127.0.0.1 **/ select * from bo1 
+[2021-04-07 11:47:08] 啵啵_log_測試  INFO testdao TWDANN2012140A    selectSQL:[{rowid=1, name=bo, phone=0955}, {rowid=2, name=lee, phone=0975}, {rowid=3, name=vian, phone=0999}, {rowid=, name=gordon, phone=09123}, {rowid=, name=gordon, phone=09123}] 
+[2021-04-07 11:47:08] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---UPDATE SQL BY XML--- 
+[2021-04-07 11:47:08] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---SELECT SQL--- 
+[2021-04-07 11:47:08] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/07 11:47:08 127.0.0.1 **/ select * from bo1 
+[2021-04-07 11:47:08] 啵啵_log_測試  INFO testdao TWDANN2012140A    selectSQL:[{rowid=1, name=bo, phone=0955}, {rowid=2, name=lee, phone=0975}, {rowid=3, name=vian, phone=0999}, {rowid=, name=gordon, phone=}, {rowid=, name=gordon, phone=}] 
+[2021-04-07 11:49:02] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Initializing Servlet 'dispatcher' 
+[2021-04-07 11:49:05] 啵啵_log_測試  INFO Version TWDANN2012140A    HV000001: Hibernate Validator 5.2.4.Final 
+[2021-04-07 11:49:06] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Completed initialization in 3776 ms 
+[2021-04-07 11:49:08] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---INSERT SQL BY XML--- 
+[2021-04-07 11:49:08] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.insertSQLByXml 啵啵 110/04/07 11:49:08 127.0.0.1 **/ insert into bo1
+		values
+		(null, gordon, 09123) 
+[2021-04-07 11:49:09] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---SELECT SQL--- 
+[2021-04-07 11:49:09] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/07 11:49:09 127.0.0.1 **/ select * from bo1 
+[2021-04-07 11:49:09] 啵啵_log_測試  INFO testdao TWDANN2012140A    selectSQL:[{rowid=1, name=bo, phone=0955}, {rowid=2, name=lee, phone=0975}, {rowid=3, name=vian, phone=0999}, {rowid=, name=gordon, phone=}, {rowid=, name=gordon, phone=}, {rowid=, name=gordon, phone=09123}] 
+[2021-04-07 11:49:09] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---UPDATE SQL BY XML--- 
+[2021-04-07 11:49:09] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.updateSQLByXml 啵啵 110/04/07 11:49:09 127.0.0.1 **/ update bo1
+		set
+		[phone]=null
+		where name = 'gordon' 
+[2021-04-07 11:49:09] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---SELECT SQL--- 
+[2021-04-07 11:49:09] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/07 11:49:09 127.0.0.1 **/ select * from bo1 
+[2021-04-07 11:49:09] 啵啵_log_測試  INFO testdao TWDANN2012140A    selectSQL:[{rowid=1, name=bo, phone=0955}, {rowid=2, name=lee, phone=0975}, {rowid=3, name=vian, phone=0999}, {rowid=, name=gordon, phone=}, {rowid=, name=gordon, phone=}, {rowid=, name=gordon, phone=}] 
+[2021-04-07 11:50:45] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---INSERT SQL BY XML--- 
+[2021-04-07 11:50:45] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.insertSQLByXml 啵啵 110/04/07 11:50:45 127.0.0.1 **/ insert into bo1
+		values
+		(null, gordon, 09123) 
+[2021-04-07 11:50:45] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---SELECT SQL--- 
+[2021-04-07 11:50:45] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/07 11:50:45 127.0.0.1 **/ select * from bo1 
+[2021-04-07 11:50:45] 啵啵_log_測試  INFO testdao TWDANN2012140A    selectSQL:[{rowid=1, name=bobo, phone=0955}, {rowid=2, name=lee, phone=0975}, {rowid=3, name=vian, phone=0999}, {rowid=, name=gordon, phone=09123}] 
+[2021-04-07 11:50:45] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---UPDATE SQL BY XML--- 
+[2021-04-07 11:50:45] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.updateSQLByXml 啵啵 110/04/07 11:50:45 127.0.0.1 **/ update bo1
+		set
+		[phone]=null
+		where name = 'gordon' 
+[2021-04-07 11:50:45] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---SELECT SQL--- 
+[2021-04-07 11:50:45] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/07 11:50:45 127.0.0.1 **/ select * from bo1 
+[2021-04-07 11:50:45] 啵啵_log_測試  INFO testdao TWDANN2012140A    selectSQL:[{rowid=1, name=bobo, phone=0955}, {rowid=2, name=lee, phone=0975}, {rowid=3, name=vian, phone=0999}, {rowid=, name=gordon, phone=}] 
+[2021-04-07 14:57:29] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Initializing Servlet 'dispatcher' 
+[2021-04-07 14:57:35] 啵啵_log_測試  INFO Version TWDANN2012140A    HV000001: Hibernate Validator 5.2.4.Final 
+[2021-04-07 14:57:35] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Completed initialization in 6178 ms 
+[2021-04-07 14:57:39] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---INSERT SQL BY XML--- 
+[2021-04-07 14:57:39] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.insertSQLByXml 啵啵 110/04/07 14:57:39 127.0.0.1 **/ insert into bo1
+		values
+		(null, gordon, 09123) 
+[2021-04-07 14:57:40] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---SELECT SQL--- 
+[2021-04-07 14:57:40] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/07 14:57:40 127.0.0.1 **/ select * from bo1 
+[2021-04-07 14:57:41] 啵啵_log_測試  INFO testdao TWDANN2012140A    selectSQL:[{rowid=1, name=bobo, phone=0955}, {rowid=2, name=lee, phone=0975}, {rowid=3, name=vian, phone=0999}, {rowid=, name=gordon, phone=}, {rowid=, name=gordon, phone=09123}] 
+[2021-04-07 14:57:41] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---UPDATE SQL BY XML--- 
+[2021-04-07 14:57:41] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.updateSQLByXml 啵啵 110/04/07 14:57:41 127.0.0.1 **/ update bo1
+		set
+		[phone]=null
+		where name = 'gordon' 
+[2021-04-07 14:57:41] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---SELECT SQL--- 
+[2021-04-07 14:57:41] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/07 14:57:41 127.0.0.1 **/ select * from bo1 
+[2021-04-07 14:57:41] 啵啵_log_測試  INFO testdao TWDANN2012140A    selectSQL:[{rowid=1, name=bobo, phone=0955}, {rowid=2, name=lee, phone=0975}, {rowid=3, name=vian, phone=0999}, {rowid=, name=gordon, phone=}, {rowid=, name=gordon, phone=}] 
+[2021-04-07 16:20:47] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Initializing Servlet 'dispatcher' 
+[2021-04-07 16:20:56] 啵啵_log_測試  INFO Version TWDANN2012140A    HV000001: Hibernate Validator 5.2.4.Final 
+[2021-04-07 16:20:56] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Completed initialization in 8932 ms 
+[2021-04-07 16:21:47] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Initializing Servlet 'dispatcher' 
+[2021-04-07 16:21:50] 啵啵_log_測試  INFO Version TWDANN2012140A    HV000001: Hibernate Validator 5.2.4.Final 
+[2021-04-07 16:21:51] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Completed initialization in 3999 ms 
+[2021-04-07 16:22:35] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Initializing Servlet 'dispatcher' 
+[2021-04-07 16:22:38] 啵啵_log_測試  INFO Version TWDANN2012140A    HV000001: Hibernate Validator 5.2.4.Final 
+[2021-04-07 16:22:39] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Completed initialization in 3267 ms 
+[2021-04-07 16:24:13] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Initializing Servlet 'dispatcher' 
+[2021-04-07 16:24:15] 啵啵_log_測試  INFO Version TWDANN2012140A    HV000001: Hibernate Validator 5.2.4.Final 
+[2021-04-07 16:24:16] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Completed initialization in 3161 ms 
+[2021-04-07 16:29:39] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Initializing Servlet 'dispatcher' 
+[2021-04-07 16:29:44] 啵啵_log_測試  INFO Version TWDANN2012140A    HV000001: Hibernate Validator 5.2.4.Final 
+[2021-04-07 16:29:45] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Completed initialization in 5398 ms 
+[2021-04-07 16:30:38] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Initializing Servlet 'dispatcher' 
+[2021-04-07 16:30:41] 啵啵_log_測試  INFO Version TWDANN2012140A    HV000001: Hibernate Validator 5.2.4.Final 
+[2021-04-07 16:30:41] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Completed initialization in 3508 ms 
+[2021-04-08 11:24:03] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Initializing Servlet 'dispatcher' 
+[2021-04-08 11:24:06] 啵啵_log_測試  INFO Version TWDANN2012140A    HV000001: Hibernate Validator 5.2.4.Final 
+[2021-04-08 11:24:07] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Completed initialization in 3428 ms 
+[2021-04-08 11:24:14] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---INSERT SQL BY XML--- 
+[2021-04-08 11:24:14] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.insertSQLByXml 啵啵 110/04/08 11:24:14 127.0.0.1 **/ insert into bo1
+		values
+		(null, gordon, 09123) 
+[2021-04-08 11:24:15] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---SELECT SQL--- 
+[2021-04-08 11:24:15] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/08 11:24:15 127.0.0.1 **/ select * from bo1 
+[2021-04-08 11:24:15] 啵啵_log_測試  INFO testdao TWDANN2012140A    selectSQL:[{rowid=1, name=bobo, phone=0955}, {rowid=2, name=lee, phone=0975}, {rowid=3, name=vian, phone=0999}, {rowid=, name=gordon, phone=}, {rowid=, name=gordon, phone=}, {rowid=, name=gordon, phone=09123}] 
+[2021-04-08 11:24:15] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---UPDATE SQL BY XML--- 
+[2021-04-08 11:24:15] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.updateSQLByXml 啵啵 110/04/08 11:24:15 127.0.0.1 **/ update bo1
+		set
+		[phone]=null
+		where name = 'gordon' 
+[2021-04-08 11:24:15] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---SELECT SQL--- 
+[2021-04-08 11:24:15] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/08 11:24:15 127.0.0.1 **/ select * from bo1 
+[2021-04-08 11:24:15] 啵啵_log_測試  INFO testdao TWDANN2012140A    selectSQL:[{rowid=1, name=bobo, phone=0955}, {rowid=2, name=lee, phone=0975}, {rowid=3, name=vian, phone=0999}, {rowid=, name=gordon, phone=}, {rowid=, name=gordon, phone=}, {rowid=, name=gordon, phone=}] 
+[2021-04-08 11:24:38] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---INSERT SQL BY XML--- 
+[2021-04-08 11:24:38] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.insertSQLByXml 啵啵 110/04/08 11:24:38 127.0.0.1 **/ insert into bo1
+		values
+		(null, gordon, 09123) 
+[2021-04-08 11:24:38] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---SELECT SQL--- 
+[2021-04-08 11:24:38] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/08 11:24:38 127.0.0.1 **/ select * from bo1 
+[2021-04-08 11:24:38] 啵啵_log_測試  INFO testdao TWDANN2012140A    selectSQL:[{rowid=1, name=bobo, phone=0955}, {rowid=2, name=lee, phone=0975}, {rowid=3, name=vian, phone=0999}, {rowid=, name=gordon, phone=}, {rowid=, name=gordon, phone=}, {rowid=, name=gordon, phone=}, {rowid=, name=gordon, phone=09123}] 
+[2021-04-08 11:24:38] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---UPDATE SQL BY XML--- 
+[2021-04-08 11:24:38] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.updateSQLByXml 啵啵 110/04/08 11:24:38 127.0.0.1 **/ update bo1
+		set
+		[phone]=null
+		where name = 'gordon' 
+[2021-04-08 11:24:38] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---SELECT SQL--- 
+[2021-04-08 11:24:38] 啵啵_log_測試  INFO MybatisInterceptor TWDANN2012140A    /** testdao.getUser 啵啵 110/04/08 11:24:38 127.0.0.1 **/ select * from bo1 
+[2021-04-08 11:24:38] 啵啵_log_測試  INFO testdao TWDANN2012140A    selectSQL:[{rowid=1, name=bobo, phone=0955}, {rowid=2, name=lee, phone=0975}, {rowid=3, name=vian, phone=0999}, {rowid=, name=gordon, phone=}, {rowid=, name=gordon, phone=}, {rowid=, name=gordon, phone=}, {rowid=, name=gordon, phone=}] 
+[2021-04-08 11:24:55] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Initializing Servlet 'dispatcher' 
+[2021-04-08 11:24:58] 啵啵_log_測試  INFO Version TWDANN2012140A    HV000001: Hibernate Validator 5.2.4.Final 
+[2021-04-08 11:24:58] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Completed initialization in 3552 ms 
+[2021-04-08 11:25:02] 啵啵_log_測試  INFO testdao TWDANN2012140A    ---康哥安安--- 
+[2021-04-08 17:31:34] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Initializing Servlet 'dispatcher' 
+[2021-04-08 17:31:37] 啵啵_log_測試  INFO Version TWDANN2012140A    HV000001: Hibernate Validator 5.2.4.Final 
+[2021-04-08 17:31:38] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Completed initialization in 3694 ms 
+[2021-04-08 17:32:29] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Initializing Servlet 'dispatcher' 
+[2021-04-08 17:32:32] 啵啵_log_測試  INFO Version TWDANN2012140A    HV000001: Hibernate Validator 5.2.4.Final 
+[2021-04-08 17:32:32] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Completed initialization in 3410 ms 
+[2021-04-08 17:34:39] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Initializing Servlet 'dispatcher' 
+[2021-04-08 17:34:42] 啵啵_log_測試  INFO Version TWDANN2012140A    HV000001: Hibernate Validator 5.2.4.Final 
+[2021-04-08 17:34:43] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Completed initialization in 3451 ms 
+[2021-04-08 17:54:09] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Initializing Servlet 'dispatcher' 
+[2021-04-08 17:54:12] 啵啵_log_測試  INFO Version TWDANN2012140A    HV000001: Hibernate Validator 5.2.4.Final 
+[2021-04-08 17:54:12] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Completed initialization in 3376 ms 
+[2021-04-08 17:56:17] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Initializing Servlet 'dispatcher' 
+[2021-04-08 17:56:20] 啵啵_log_測試  INFO Version TWDANN2012140A    HV000001: Hibernate Validator 5.2.4.Final 
+[2021-04-08 17:56:21] 啵啵_log_測試  INFO FrameworkServlet TWDANN2012140A    Completed initialization in 3388 ms 

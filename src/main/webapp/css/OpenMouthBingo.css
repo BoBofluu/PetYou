@@ -1,0 +1,88 @@
+.articlediv {
+	position: relative;
+	margin: auto;
+	width: 1200px;
+}
+
+.bm {
+	float: left;
+	border: 1px solid #cdcdcd;
+	background: #fff;
+	width: 75%;
+	margin-bottom: 20px;
+}
+
+.bm_h {
+	padding: 0 10px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #e0e0e0;
+	background: #BF8383;
+	line-height: 2em;
+}
+
+.bm_h_title {
+	font-size: 25px;
+	color: white;
+}
+
+.bm_c {
+	padding: 10px;
+}
+
+.bm_c a {
+	color: #ff0000;
+	font-weight: bold;
+	font-size: x-large;
+}
+
+.bm_c a:link {
+	text-decoration: none;
+}
+
+.bm_c a:hover {
+	color: #948f8f;
+}
+
+.infoul {
+	display: block;
+	list-style-type: none;
+	padding-left: 8px;
+	padding-top: 3px;
+}
+
+.infoul li span {
+	color: #FF0000;
+	font-weight: bold;
+}
+
+.infotable {
+	width: 100%;
+}
+
+.infotable td {
+	border-bottom: 1px dashed gray;
+	padding: 7px 0;
+	font-size: medium;
+}
+
+.rightdiv {
+	width: 23%;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+}
+
+.rightinfoul {
+	margin: 0;
+	padding: 0;
+}
+
+.openNumber {
+	display: inline-block;
+	width: 100px;
+	margin-left: 92px;
+}
+
+#input-rollback {
+	margin-left: 60px;
+}
